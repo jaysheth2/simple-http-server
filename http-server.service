@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /http-server-multiple-ports.py
+ExecStart=/usr/bin/python3 /simple-http-server/http-server-multiple-ports.py
 Restart=always
 
 [Install]
