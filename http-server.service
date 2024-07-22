@@ -1,0 +1,11 @@
+[Unit]
+Description=My Python HTTP Server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /http-server-multiple-ports.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
