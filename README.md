@@ -4,3 +4,4 @@
 * cp /simple-http-server/http-server.service /etc/systemd/system/
 * systemctl daemon-reload
 * systemctl start http-server
+* sudo systemctl enable http-server
